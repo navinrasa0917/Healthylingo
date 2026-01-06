@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HealthyLingo</title>
+    <style>
+        body {
+            font-family: Arial;
+            background-color: #f4f6f8;
+            padding: 40px;
+        }
+        textarea, select, button {
+            width: 100%;
+            margin-top: 10px;
+            padding: 10px;
+        }
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 700px;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>HealthyLingo 🏥</h2>
+    <p>Convert complex medical reports into simple language</p>
+
+    <form method="POST">
+        <textarea name="medical_text" rows="6" placeholder="Paste medical report here..." required></textarea>
+
+        <select name="language">
+            <option>English</option>
+            <option>Tamil</option>
+        </select>
+
+        <button type="submit">Simplify</button>
+    </form>
+
+    {% if output %}
+        <h3>Result:</h3>
+        <p>{{ output }}</p>
+    {% endif %}
+</div>
+
+</body>
+</html>
