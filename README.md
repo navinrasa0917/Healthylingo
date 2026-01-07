@@ -40,7 +40,7 @@ This helps patients clearly understand their health reports without medical expe
 - OCR-based report upload (PDF/Image)
 
 ## Author
-*Navin rasa M*
-*Deepan CV*
-*Anantha krishna M*
-*Deepak devanand S*
+*Navin rasa M* 
+*Deepan CV* 
+*Anantha krishna M* 
+*Deepak devanand S* 
