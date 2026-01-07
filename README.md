@@ -39,6 +39,11 @@ This helps patients clearly understand their health reports without medical expe
 - Mobile app support
 - OCR-based report upload (PDF/Image)
 
+## Prototype Status
+-This is an early-stage working prototype.
+-Currently uses rule-based text simplification.
+-Future versions will integrate AI/LLM models for advanced medical NLP and multilingual translation.
+
 ## Author
 *Navin rasa M* 
 *Deepan CV* 
