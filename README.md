@@ -46,6 +46,4 @@ This helps patients clearly understand their health reports without medical expe
 
 ## Author
 *Navin rasa M* 
-*Deepan CV* 
-*Anantha krishna M* 
-*Deepak devanand S* 
+ 
